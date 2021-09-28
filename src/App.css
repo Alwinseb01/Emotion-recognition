@@ -13,6 +13,12 @@ h1 {
   font-family: "Inter", sans-serif;
   font-size: 2.5rem;
   color: #e2e2e2;
+  transition: all 0.25s ease-in-out;
+}
+
+h1:hover{
+  text-shadow:5px 5px 8px #848484;
+  transform: translate(-5px, -5px);
 }
 
 form {
