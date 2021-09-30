@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import './App.css';
-
+import Footer from "./Footer";
 
 function App() {
 
@@ -71,8 +71,13 @@ function App() {
           </p>
         </div>
       )}
+        <div className="footer">
+      
+      </div>
+        <Footer/>
     </div>
-  );
+
+  ); 
 }
 
 
