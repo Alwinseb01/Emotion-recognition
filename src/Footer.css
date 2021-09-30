@@ -16,3 +16,7 @@
   a:active {
     color: rgba(50, 50, 90, 0.884);
   }
+  a:hover{
+      color: cyan;
+      text-shadow:5px 5px 8px #ffffff;
+  }
